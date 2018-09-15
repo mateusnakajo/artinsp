@@ -1,6 +1,9 @@
 import '@babel/polyfill'
 import Vue from "vue";
 import './plugins/vuetify'
+import './plugins/vue-dummy'
+import './plugins/vue-content-placeholders'
+import './plugins/vue-prototype'
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
